@@ -1,7 +1,18 @@
 # CyrillicShift
 Library for text translation in CyrillicShift
 
-Example Code:
+## 🚨 Important Note: Case Sensitivity
+
+The current version (0.1.1) only supports **lowercase letters**. 
+Capital letters will not be converted correctly.
+
+**Workaround:**
+```csharp
+// Convert to lowercase before processing
+var result = CyrillicShiftConverter.EncodeToCyrillic(myString.ToLower());
+```
+
+# Example Code:
 ```
 using System;
 using System.Windows.Forms;
@@ -25,6 +36,4 @@ namespace TestLibCyrillicShift
         }
     }
 }
-
-
 ```

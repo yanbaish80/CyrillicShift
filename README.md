@@ -9,7 +9,7 @@ Use only for testing and development purposes. We'll fix this soon.
 
 ## 🚨 Important Note: Case Sensitivity
 
-The current version (0.1.1) only supports **lowercase letters**. 
+🚨 The current version (0.1.1) only supports **lowercase letters**. 
 Capital letters will not be converted correctly.
 
 **Workaround:**
@@ -28,11 +28,20 @@ public static string EncodeToCyrillic(string input, bool preserveCase = false)
 ```
 
 ## 🔮 Future Plans
-v1.1.0: Add uppercase letter support
+🔮 v1.1.0: Add uppercase letter support
 
-v1.2.0: Add case preservation option
+🔮 v1.2.0: Add case preservation option
 
-v2.0.0: Add additional keyboard layouts
+🔮 v2.0.0: Add additional keyboard layouts
+
+## 🚨 Current Limitations
+🚨 Only lowercase letters are supported
+
+🚨 Inaccurate character mappings in some cases
+
+🚨 Mixed case input will produce unexpected results
+
+🚨 Limited symbol coverage
 
 
 # Example Code:

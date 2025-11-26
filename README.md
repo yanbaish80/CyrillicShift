@@ -19,9 +19,12 @@ namespace TestLibCyrillicShift
         private void Form1_Load(object sender, EventArgs e)
         {
             string Word = CyrillicShiftClass.EncodeToCyrillic("hello world");
-            Console.WriteLine(Word); //Console hвllд ыдаld
+            Console.WriteLine(Word); // hвllд ыдаld
+            Word = CyrillicShiftClass.DecodeToLatin(Word);
+            Console.WriteLine(Word); // hellogworld
         }
     }
 }
+
 
 ```

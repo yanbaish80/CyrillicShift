@@ -12,6 +12,15 @@ Capital letters will not be converted correctly.
 var result = CyrillicShiftConverter.EncodeToCyrillic(myString.ToLower());
 ```
 
+### **🔮 For future versions can be fixed:**
+```csharp
+// Planned for v1.1.0:
+public static string EncodeToCyrillic(string input, bool preserveCase = false)
+{
+    // Implementation with case support
+}
+```
+
 # Example Code:
 ```
 using System;

@@ -2,6 +2,11 @@
 
 A lightweight .NET library for converting text between Latin and Cyrillic keyboard layouts. Perfect for fixing the "wrong layout" typing problem.
 
+## ⚠️ WARNING: Experimental Version
+
+The current version (0.1.1) has a lot of bugs, so many answers may be incorrect!
+Use only for testing and development purposes. We'll fix this soon.
+
 ## 🚨 Important Note: Case Sensitivity
 
 The current version (0.1.1) only supports **lowercase letters**. 
@@ -47,10 +52,11 @@ namespace TestLibCyrillicShift
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            string Word = CyrillicShiftClass.EncodeToCyrillic("hello world");
-            Console.WriteLine(Word); // hвllд ыдаld
-            Word = CyrillicShiftClass.DecodeToLatin(Word);
-            Console.WriteLine(Word); // hellogworld
+            string Word = CyrillicShiftConverter.EncodeToCyrillic("hello world");
+            Console.WriteLine(Word); // рвddф ьфsыв
+            Word = CyrillicShiftConverter.DecodeToLatin(Word);
+            Console.WriteLine(Word); // hello world
+            // The current version (0.1.1) has a lot of bugs, so many answers may be incorrect.
         }
     }
 }

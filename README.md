@@ -1,5 +1,6 @@
-# CyrillicShift
-Library for text translation in CyrillicShift
+# CyrillicShift Converter
+
+A lightweight .NET library for converting text between Latin and Cyrillic keyboard layouts. Perfect for fixing the "wrong layout" typing problem.
 
 ## 🚨 Important Note: Case Sensitivity
 

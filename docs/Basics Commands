@@ -1,0 +1,6 @@
+## Basics Commands
+CyrillicShiftConverter.EncodeToCyrillic("Test String"); // This command encode string to cyrillic Returns:пвsп sпалn
+CyrillicShiftConverter.EncodeToLatin("Test String"); // This command encode string to cyrillic Returns:testgstring
+
+🚨 Important Note: Case Sensitivity
+The current version (0.1.1) only supports lowercase letters. Capital letters will not be converted correctly.

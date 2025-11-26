@@ -22,6 +22,14 @@ public static string EncodeToCyrillic(string input, bool preserveCase = false)
 }
 ```
 
+## 🔮 Future Plans
+v1.1.0: Add uppercase letter support
+
+v1.2.0: Add case preservation option
+
+v2.0.0: Add additional keyboard layouts
+
+
 # Example Code:
 ```
 using System;
